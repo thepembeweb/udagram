@@ -8,9 +8,6 @@ jobs:
   deployment:
     docker:
       - image: cimg/node:16.10
-      - image: circleci/node:8-browsers
-        environment:
-          CHROME_BIN: "/usr/bin/google-chrome"
     steps:
       - node/install
       - checkout

@@ -107,9 +107,9 @@ The e2e tests are using Protractor and Jasmine.
 
 ![Backend API Elastic Beanstalk Environment](./screenshots/udagram-api-environment.png)
 
-### FrontEnd S3 Bucket
+### Frontend S3 Bucket
 
-![FrontEnd S3 Bucket](./screenshots/udagram-feeds.png)
+![Frontend S3 Bucket](./screenshots/udagram-feeds.png)
 
 ### Uploads S3 Bucket
 

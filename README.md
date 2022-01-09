@@ -4,7 +4,7 @@
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/200px-Node.js_logo.svg.png)
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/233px-Postgresql_elephant.svg.png)
-![](https://upload.wikimedia.org/wikipedia/commons/7/79/Docker_%28container_engine%29_logo.png)
+![Project Infrastructure Diagram](./screenshots/aws-ebs.png)
 
 ![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)
 

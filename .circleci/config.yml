@@ -4,6 +4,11 @@ orbs:
   aws-cli: circleci/aws-cli@2.0.6
   aws-ebcli: circleci/aws-elastic-beanstalk@2.0.1
   aws-s3cli: circleci/aws-s3@3.0.0
+triggers:
+  - filters:
+      branches:
+        only:
+          - main
 jobs:
   deployment:
     docker:

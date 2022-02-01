@@ -11,7 +11,10 @@
     "clean": "rm -rf www/ || true",
     "build": "npm run clean && tsc && cp -rf src/config www/config && cp .npmrc www/.npmrc && cp package.json www/package.json && cd www && zip -r Archive.zip . && cd ..",
     "test": "echo \"Error: no test specified\" ",
-    "deploy": "chmod +x bin/deploy.sh && bin/deploy.sh"
+    "deploy": "chmod +x bin/deploy.sh && bin/deploy.sh",
+    "clean-windows": "rimraf www/ || true",
+    "build-windows": "npm run clean-windows && tsc && npm run copy-windows",
+    "copy-windows": "copy .npmrc \"www/.npmrc\" && copy package.json \"www/package.json\" && xcopy /E /I \"src/migrations\" \"www/migrations\""
   },
   "keywords": [],
   "author": "Gabriel Ruttner",

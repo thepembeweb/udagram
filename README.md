@@ -1,6 +1,6 @@
 ﻿# Hosting a FullStack Application: Udagram
 
-> This project (Udagram) demonstrates how to take a newly developed full stack application and deploy it to a cloud service provider so that it is available to customers. This application contains the main components of a 3-tier full stack application (UI, API, and Database).
+> This project (Udagram) demonstrates how to take a newly developed full-stack application and deploy it to a cloud service provider so that it is available to customers. This application contains the main components of a 3-tier full-stack application (UI, API, and Database).
 
 ![](./screenshots/aws-ebs.png)
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/233px-Postgresql_elephant.svg.png)
@@ -8,15 +8,12 @@
 
 ![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)
 
-Udagram showcases 3-tier full stack application (UI, API, and Database) powered by Typescript, Node.js, Express, Postgres, Angular, AWS and CircleCI; with the goal to deploy it to a cloud service provider so that it is available to customers. The app allows users to register, login, upload and view posts with images. 
+Udagram showcases 3-tier full-stack application (UI, API, and Database) powered by Typescript, Node.js, Express, Postgres, Angular, AWS and CircleCI; with the goal to deploy it to a cloud service provider so that it is available to customers. The app allows users to register, login, upload and view posts with images. 
 
 
 ## Udagram App
 
 ![Udagram App](./screenshots/udagram-frontend.png)
-
-Visit the website [http://udagram-feeds.s3-website-us-east-1.amazonaws.com](http://udagram-feeds.s3-website-us-east-1.amazonaws.com)
-
 
 ## Project Infrastructure Diagram
 
